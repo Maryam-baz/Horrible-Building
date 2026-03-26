@@ -32,6 +32,32 @@ Navigate to your project folder in your File Explorer (Windows) or Finder (Mac).
 Right-click on index.html.
 
 Select "Open with..." and choose your preferred web browser.
+## 📤 Uploading to GitHub
+Ready to show off your work? Follow these steps to put your code online:
+
+### Option 1: The Website Way (No Terminal)
+Log in to GitHub.com.
+
+Click the "New" button next to "Repositories."
+
+Give it a name like my-first-web-app and click "Create repository."
+
+On the next screen, look for the link that says "uploading an existing file."
+
+Drag and drop your index.html, styles.css, and script.js files into the box.
+
+Click "Commit changes."
+
+### Option 2: The Command Line Way (The Pro Way)
+If you have Git installed, run these commands in your project folder:
+
+Bash
+git init
+git add .
+git commit -m "First commit"
+git branch -M main
+git remote add origin YOUR_REPOSITORY_URL_HERE
+git push -u origin main
 
 ## 📚 Helpful Resources
 
